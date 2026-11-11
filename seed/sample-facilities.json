@@ -1,0 +1,172 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "Organization/e8b9b7de-d2c1-5ff2-a003-ca6e552a4651",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "e8b9b7de-d2c1-5ff2-a003-ca6e552a4651",
+        "active": true,
+        "name": "Central Region Health Office",
+        "identifier": [
+          {
+            "system": "http://openelis-global.org/org_code",
+            "value": "CRHO"
+          },
+          {
+            "system": "http://openelis-global.org/org_shortName",
+            "value": "CRHO"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://openelis-global.org/orgType",
+                "code": "referring clinic"
+              }
+            ],
+            "text": "referring clinic"
+          }
+        ],
+        "address": [
+          {
+            "city": "Kampala",
+            "country": "UG"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/e8b9b7de-d2c1-5ff2-a003-ca6e552a4651"
+      }
+    },
+    {
+      "fullUrl": "Organization/b8ff87a6-12c3-53f2-b6fa-1ee093df73c9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "b8ff87a6-12c3-53f2-b6fa-1ee093df73c9",
+        "active": true,
+        "name": "Mulago Health Centre IV",
+        "identifier": [
+          {
+            "system": "http://openelis-global.org/org_code",
+            "value": "MHC4"
+          },
+          {
+            "system": "http://openelis-global.org/org_shortName",
+            "value": "MHC4"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://openelis-global.org/orgType",
+                "code": "referring clinic"
+              }
+            ],
+            "text": "referring clinic"
+          }
+        ],
+        "address": [
+          {
+            "city": "Kampala",
+            "country": "UG"
+          }
+        ],
+        "partOf": {
+          "reference": "Organization/e8b9b7de-d2c1-5ff2-a003-ca6e552a4651"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/b8ff87a6-12c3-53f2-b6fa-1ee093df73c9"
+      }
+    },
+    {
+      "fullUrl": "Organization/3939696b-596c-5ea9-b452-c03415216f31",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "3939696b-596c-5ea9-b452-c03415216f31",
+        "active": true,
+        "name": "Kisenyi Health Centre IV",
+        "identifier": [
+          {
+            "system": "http://openelis-global.org/org_code",
+            "value": "KHC4"
+          },
+          {
+            "system": "http://openelis-global.org/org_shortName",
+            "value": "KHC4"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://openelis-global.org/orgType",
+                "code": "referring clinic"
+              }
+            ],
+            "text": "referring clinic"
+          }
+        ],
+        "address": [
+          {
+            "city": "Kampala",
+            "country": "UG"
+          }
+        ],
+        "partOf": {
+          "reference": "Organization/e8b9b7de-d2c1-5ff2-a003-ca6e552a4651"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/3939696b-596c-5ea9-b452-c03415216f31"
+      }
+    },
+    {
+      "fullUrl": "Organization/fd1f97de-4a84-5bb2-aad6-fd071a2373be",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "fd1f97de-4a84-5bb2-aad6-fd071a2373be",
+        "active": true,
+        "name": "National Reference Laboratory",
+        "identifier": [
+          {
+            "system": "http://openelis-global.org/org_code",
+            "value": "NRL"
+          },
+          {
+            "system": "http://openelis-global.org/org_shortName",
+            "value": "NRL"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://openelis-global.org/orgType",
+                "code": "referralLab"
+              }
+            ],
+            "text": "referralLab"
+          }
+        ],
+        "address": [
+          {
+            "city": "Kampala",
+            "country": "UG"
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/fd1f97de-4a84-5bb2-aad6-fd071a2373be"
+      }
+    }
+  ]
+}
