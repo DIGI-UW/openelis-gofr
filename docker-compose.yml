@@ -303,7 +303,10 @@ services:
         volumes:
             - gofr-hapi-data:/usr/local/tomcat/target
         networks:
-            - openelis-network
+            openelis-network:
+                # The GOFR image waits for http://fhir:8080 before it starts.
+                aliases:
+                    - fhir
 
     # Uploads the FHIR definitions GOFR needs, then exits.
     gofr-hapi-cli:
