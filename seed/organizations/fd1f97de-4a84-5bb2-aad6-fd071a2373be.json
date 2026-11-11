@@ -1,0 +1,33 @@
+{
+  "resourceType": "Organization",
+  "id": "fd1f97de-4a84-5bb2-aad6-fd071a2373be",
+  "active": true,
+  "name": "National Reference Laboratory",
+  "identifier": [
+    {
+      "system": "http://openelis-global.org/org_code",
+      "value": "NRL"
+    },
+    {
+      "system": "http://openelis-global.org/org_shortName",
+      "value": "NRL"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://openelis-global.org/orgType",
+          "code": "referralLab"
+        }
+      ],
+      "text": "referralLab"
+    }
+  ],
+  "address": [
+    {
+      "city": "Kampala",
+      "country": "UG"
+    }
+  ]
+}

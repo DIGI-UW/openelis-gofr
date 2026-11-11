@@ -1,0 +1,33 @@
+{
+  "resourceType": "Organization",
+  "id": "e8b9b7de-d2c1-5ff2-a003-ca6e552a4651",
+  "active": true,
+  "name": "Central Region Health Office",
+  "identifier": [
+    {
+      "system": "http://openelis-global.org/org_code",
+      "value": "CRHO"
+    },
+    {
+      "system": "http://openelis-global.org/org_shortName",
+      "value": "CRHO"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://openelis-global.org/orgType",
+          "code": "referring clinic"
+        }
+      ],
+      "text": "referring clinic"
+    }
+  ],
+  "address": [
+    {
+      "city": "Kampala",
+      "country": "UG"
+    }
+  ]
+}

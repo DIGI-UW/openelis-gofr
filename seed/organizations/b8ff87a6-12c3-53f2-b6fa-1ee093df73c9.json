@@ -1,0 +1,36 @@
+{
+  "resourceType": "Organization",
+  "id": "b8ff87a6-12c3-53f2-b6fa-1ee093df73c9",
+  "active": true,
+  "name": "Mulago Health Centre IV",
+  "identifier": [
+    {
+      "system": "http://openelis-global.org/org_code",
+      "value": "MHC4"
+    },
+    {
+      "system": "http://openelis-global.org/org_shortName",
+      "value": "MHC4"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://openelis-global.org/orgType",
+          "code": "referring clinic"
+        }
+      ],
+      "text": "referring clinic"
+    }
+  ],
+  "address": [
+    {
+      "city": "Kampala",
+      "country": "UG"
+    }
+  ],
+  "partOf": {
+    "reference": "Organization/e8b9b7de-d2c1-5ff2-a003-ca6e552a4651"
+  }
+}

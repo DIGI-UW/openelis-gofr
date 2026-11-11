@@ -1,0 +1,36 @@
+{
+  "resourceType": "Organization",
+  "id": "3939696b-596c-5ea9-b452-c03415216f31",
+  "active": true,
+  "name": "Kisenyi Health Centre IV",
+  "identifier": [
+    {
+      "system": "http://openelis-global.org/org_code",
+      "value": "KHC4"
+    },
+    {
+      "system": "http://openelis-global.org/org_shortName",
+      "value": "KHC4"
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://openelis-global.org/orgType",
+          "code": "referring clinic"
+        }
+      ],
+      "text": "referring clinic"
+    }
+  ],
+  "address": [
+    {
+      "city": "Kampala",
+      "country": "UG"
+    }
+  ],
+  "partOf": {
+    "reference": "Organization/e8b9b7de-d2c1-5ff2-a003-ca6e552a4651"
+  }
+}
