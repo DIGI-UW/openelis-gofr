@@ -1,10 +1,12 @@
-# OpenELIS Global with the GOFR facility registry
+# OpenELIS Global importing its facility list from GOFR
 
 OpenELIS Global 3.3.0 (the [openelis-docker](https://github.com/DIGI-UW/openelis-docker) 3.3.0 stack)
 with [GOFR](https://github.com/intrahealth/gofr), the Global Open Facility Registry. One command starts
 both, loads four sample facilities into GOFR, and OpenELIS imports them as its organizations.
 
-Guide: [Facility Registry (GOFR / FHIR)](https://uwdigi.atlassian.net/wiki/spaces/oeg/pages/1776975886)
+Guide: [Facility List import (GOFR / FHIR)](https://uwdigi.atlassian.net/wiki/spaces/oeg/pages/1776975886)
+(for the opposite direction, OpenELIS registering itself as a facility in GOFR, see
+[openelis-facilityregistry](https://github.com/DIGI-UW/openelis-facilityregistry)).
 
 ## Start
 
